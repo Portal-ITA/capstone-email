@@ -1,0 +1,50 @@
+{
+  "name": "keystone-email",
+  "version": "1.1.0",
+  "description": "Email helper for KeystoneJS Apps",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "html-to-text": "^4.0.0",
+    "juice": "^4.3.1",
+    "lodash": "^4.17.10",
+    "mailgun-js": "^0.18.0",
+    "mandrill-api": "^1.0.45",
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.5.0",
+    "eslint": "^3.10.0",
+    "eslint-config-keystone": "^3.0.0",
+    "eslint-config-keystone-react": "^1.0.0",
+    "eslint-plugin-react": "^6.6.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nodemailer": "^4.6.5",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run test-unit",
+    "test-unit": "mocha tests",
+    "coverage": "istanbul cover _mocha tests",
+    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",
+    "lint": "eslint . --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keystonejs/keystone-email.git"
+  },
+  "keywords": [
+    "email",
+    "keystone",
+    "keystonejs",
+    "mandrill",
+    "mailgun"
+  ],
+  "author": "Jed Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keystonejs/keystone-email/issues"
+  },
+  "homepage": "https://github.com/keystonejs/keystone-email#readme"
+}
