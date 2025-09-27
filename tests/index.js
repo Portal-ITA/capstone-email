@@ -1,8 +1,8 @@
 /* eslint-env node, mocha */
 var assert = require('assert');
-var testEmail = 'user@keystone.com';
+var testEmail = 'user@capstone.com';
 var testName = 'user person';
-var testAddress = 'user person <user@keystone.com>';
+var testAddress = 'user person <user@capstone.com>';
 var nameObj = { first: 'user', last: 'person' };
 
 describe('utils', function () {

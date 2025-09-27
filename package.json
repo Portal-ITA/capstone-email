@@ -1,7 +1,7 @@
 {
-  "name": "keystone-email",
+  "name": "capstone-email",
   "version": "1.1.0",
-  "description": "Email helper for KeystoneJS Apps",
+  "description": "Email helper for CapstoneJS Apps",
   "main": "index.js",
   "dependencies": {
     "debug": "^3.1.0",
@@ -15,8 +15,8 @@
   "devDependencies": {
     "codeclimate-test-reporter": "^0.5.0",
     "eslint": "^3.10.0",
-    "eslint-config-keystone": "^3.0.0",
-    "eslint-config-keystone-react": "^1.0.0",
+    "eslint-config-capstone": "^3.0.0",
+    "eslint-config-capstone-react": "^1.0.0",
     "eslint-plugin-react": "^6.6.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
@@ -32,19 +32,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keystonejs/keystone-email.git"
+    "url": "git+https://github.com/capstonejs/capstone-email.git"
   },
   "keywords": [
     "email",
-    "keystone",
-    "keystonejs",
+    "capstone",
+    "capstonejs",
     "mandrill",
     "mailgun"
   ],
   "author": "Jed Watson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keystonejs/keystone-email/issues"
+    "url": "https://github.com/capstonejs/capstone-email/issues"
   },
-  "homepage": "https://github.com/keystonejs/keystone-email#readme"
+  "homepage": "https://github.com/capstonejs/capstone-email#readme"
 }

@@ -2,9 +2,9 @@
 This file sends an email with a test template to an email address.
 
 Usage:
-	TO=user@keystonejs.com MAILGUN_API_KEY=xyz MAILGUN_DOMAIN=abc TEMPLATE=simple node test-send
+	TO=user@capstonejs.com MAILGUN_API_KEY=xyz MAILGUN_DOMAIN=abc TEMPLATE=simple node test-send
 For usage with nodemailer specify your transport config and auth in test.config.js, and then run:
-	TO=user@keystonejs.com TEST_NODEMAILER=true node test-send
+	TO=user@capstonejs.com TEST_NODEMAILER=true node test-send
 */
 
 var Email = require('./index');
@@ -52,8 +52,8 @@ if (mailgunApiKey) {
 		// Send options
 		{
 			to: toArray,
-			subject: 'Why hello there! ... from keystone-email ' + Date.now(),
-			from: { name: 'Test', email: 'user@keystonejs.com' },
+			subject: 'Why hello there! ... from capstone-email ' + Date.now(),
+			from: { name: 'Test', email: 'user@capstonejs.com' },
 			apiKey: mailgunApiKey,
 			domain: mailgunDomain,
 		},
@@ -81,8 +81,8 @@ if (mandrillApiKey) {
 		// Send options
 		{
 			to: toArray,
-			subject: 'Why hello there! ... from keystone-email ' + Date.now(),
-			from: { name: 'Test', email: 'user@keystonejs.com' },
+			subject: 'Why hello there! ... from capstone-email ' + Date.now(),
+			from: { name: 'Test', email: 'user@capstonejs.com' },
 			apiKey: mandrillApiKey,
 		},
 		// callback
@@ -109,8 +109,8 @@ if (nodemailerConfig) {
 		// Send options
 		{
 			to: toArray,
-			subject: 'Why hello there! ... from keystone-email ' + Date.now(),
-			from: { name: 'Test', email: 'user@keystonejs.com' },
+			subject: 'Why hello there! ... from capstone-email ' + Date.now(),
+			from: { name: 'Test', email: 'user@capstonejs.com' },
 			nodemailerConfig: nodemailerConfig,
 		},
 		// callback
